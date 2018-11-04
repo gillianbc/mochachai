@@ -10,7 +10,7 @@ https://github.com/JesterXL/rest-api-integration-test-example
 
 For that project, I used nyc rather than istanbul (it's related) and this is how I did the coverage
 in the package.json.  There are two test files testing index.js but I didn't want either of those covered by the
-coverage so they're in the exclude for nyc.  The coverage html file is created in a coverage folder
+coverage so they're in the exclude for nyc.  The coverage html file is created in a coverage folder below project root
 ```javascript 
 "scripts": {
     "test": "mocha index.test.js",
